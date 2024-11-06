@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('images/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+        }
+        .maindiv{
+            margin: auto;
+            width: 300px;
+            height: 500px;
+            display: block;
+            background-color: white;
+            border-radius: 20px;
+            margin-top: 50px;
+        }
+        .inputs{
+            margin:auto;
+            margin-bottom: 40px;
+            display: block;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-color: rgb(40, 98, 245);
+            border-style: solid;
+            border-radius: 25px;
+        }
+        .forgotpass{
+            margin-top: 5px;
+            margin-left: 70px;
+            font-size: smaller;
+            text-decoration: underline;
+        }
+        .forgotpass:hover{
+            cursor: pointer;
+        }
+        .login{
+            margin: auto;
+            width: 100px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 50px;
+            border-radius: 20px;
+            background-color: rgb(85, 85, 241);
+            display: block;
+            border-style: solid;
+            border-color:  rgb(85, 85, 241);
+        }
+        .login:hover{
+            cursor: pointer;
+            opacity: 0.9;
+        }
+        .login:active{
+            opacity: 0.7;
+        }
+
+
+
+
+
+        .google-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 250px;
+            height: 50px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #555;
+            text-decoration: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, box-shadow 0.3s;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        .google-btn:hover {
+            cursor: pointer;
+            background-color: #f7f7f7;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .google-btn img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+
+
+        .fb-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 250px;
+            height: 50px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #555;
+            text-decoration: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, box-shadow 0.3s;
+            margin: auto;
+            margin-top: 8px;
+        }
+
+        .fb-btn:hover {
+            cursor: pointer;
+            background-color: #f7f7f7;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .fb-btn img {
+            width: 50px;
+            height: 50px;
+            margin-right: 0px;
+        }
+
+
+
+        .loginothers{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 250px;
+            height: 50px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #555;
+            text-decoration: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, box-shadow 0.3s;
+            margin: auto;
+            margin-top: 8px;
+        }
+
+        .loginothers:hover {
+            cursor: pointer;
+            background-color: #f7f7f7;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <input class="inputs" placeholder="enter ID">
+        <input class="inputs" placeholder="Password">
+        <a href="https://myaccount.google.com/intro/signinoptions/password" class="forgotpass" target="_blank">forgot password?</a>
+        <button class="login">
+            Login
+        </button>
+        <button href="www.google.com/login" class="google-btn">
+                <img src="images/Google__G__logo.svg.png" alt="Google logo">
+            continue with Google
+        </button>
+        <button class="fb-btn" href="https://www.facebook.com/login.php/">
+            <img src="images/facebook-logo-facebook-icon-transparent-free-png.webp">
+            continue with Facebook
+        </button>
+        <button class="loginothers">
+            Others
+        </button>
+    </div>
+
+</body>
+</html>

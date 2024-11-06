@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "code-runner.runInTerminal": true,
+    "python.REPL.enableREPLSmartSend": false
+}
