@@ -2,17 +2,22 @@
 
 #include<stdio.h>
 #include<string.h>
-int main(){
-    char ch1[100],ch2[100];
-    int i,j=0,count;
+
+int main() {
+    char ch1[100], ch2[100];
+    int i, j = 0, count;
+    // Input the string
     printf("Enter the string:\n");
-    scanf("%[^\n]%*c", ch1);
-    int l=strlen(ch1);
-    for(i=l-1;i>=0;i--){
-        if(ch1[i]!=',' && ch1[i]!='.'){
-            ch2[j++]=ch1[i];
+    scanf("%[^\n]%*c", ch1); // Read input until newline and discard newline
+    int l = strlen(ch1); // Calculate the length of the input string
+    // Reverse the string excluding ',' and '.'
+    for (i = l - 1; i >= 0; i--) {
+        // Check if the current character is not ',' or '.'
+        if (ch1[i] != ',' && ch1[i] != '.') {
+            ch2[j++] = ch1[i]; // Add character to the reversed string
         }
     }
-    ch2[j++]='\0';
-    printf("the reversed string is: %s",ch2);
+    ch2[j++] = '\0'; // Null-terminate the reversed string
+    // Output the reversed string
+    printf("The reversed string is: %s", ch2);
 }
